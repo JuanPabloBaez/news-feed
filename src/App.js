@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     async function fetchNews() {
       try {
-           axios.get(`http://hn.algolia.com/api/v1/search?query=${searchQuery}&tags=story`)
+           axios.get(`https://hn.algolia.com/api/v1/search?query=${searchQuery}&tags=story`)
           .then(
 
             (response) =>{ 
