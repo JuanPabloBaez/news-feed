@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.search-bar {
+    margin: 10px auto;
+    
+}
+
+.search-bar button {
+    font-size: 10pt;
+    
+    
+}

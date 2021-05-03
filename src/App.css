@@ -1,4 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.body {
+width: 90% ;
+background-color: rgb(246, 246, 239);
+}
+
+.header {
+  background-color: #ff6600;
+  display: flex;  
+  padding: 2px;
+  display: flex;
+}
+.logo {
+width: auto;
+border: 1px solid white;
+}
+
+.navBar {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.navButton  {
+  font-size: 10pt;
+  line-height: 12px;
+  margin: 5px;
+}
+.homeButton  {
+  font-size: 10pt;
+  line-height: 12px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.LoginButton  {
+  font-size: 10pt;
+  line-height: 12px;
+  margin: 5px;
+  margin-left: auto;
+}
+
+footer {
+  margin-top: 15px;
+  padding: 15px;
+  border-top: 2px solid #ff6600;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.navFooter {
+  margin: 5px auto;
+  font-size: 8pt;
+}
+
+.footerButton {
+  font-size: 8pt;
+  margin: 0 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +123,4 @@
     transform: rotate(360deg);
   }
 }
+ */
